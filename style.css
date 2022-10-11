@@ -1,0 +1,1030 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width:100%;
+    overflow-x:hidden;
+    }
+
+
+#fHeader{
+    background-color: #232728;
+    height: 7.5vh;
+    display: flex;
+    padding: 2em 1em;
+    justify-content: center;
+    align-items: center;
+}
+#fHeader h2{
+    font-size: 1em;
+    color: #cb6018;
+}
+#fHeader p , #fHeader h3{
+    color: #FFF;
+}
+#fHeader div{
+    padding: 2em 2.5em;
+    display: flex;
+    word-spacing: 0.3em;
+    line-height: 1.5em
+}
+.AB h2 span,.ABC h2 span,.A{
+    color: #fff;
+}
+.ABC h2 span{
+    font-size: 1.5em;
+}
+.ABCD h3 span{
+color: #cb6018;
+}
+
+#sHeader{
+    background-image: url(/img/vehicule1.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+    position: relative;
+      
+}
+.mainNav{
+    background-color: #ffffffad;
+    height: 3rem;
+    width: 100vw;     
+}
+.mainNav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right; 
+    padding-right: 10%;  
+    margin: 0;
+    padding-top: 1em;
+   
+}
+.mainNav ul li a{
+    text-decoration: none;
+    padding: 1.5rem;
+    font-weight: bolder;
+    color: black;    
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.bottomHeader{
+    background-color: #232728;
+    height: 6vh;
+    width: 100vw;
+    font-size: 1em;
+    color: #cb6018;
+   position: absolute;
+   bottom: 0;
+    
+    
+}
+.bottomHeader h1{
+    text-align: center;
+}
+#sHeader h1 span{
+    color: #FFF;
+}
+#AMiddlePage {
+   display: grid;
+   padding: 5em 8em;     
+}
+#AfContent{   
+    display: flex;
+    justify-content: center;
+} 
+.fblock{
+    padding: 1em; 
+    width: 40vw;     
+}
+.sblock{
+    padding: 1em;
+    width: 40vw;
+}
+.sblock h1 span{
+    color: #cb6018;
+}
+#AsContent{   
+    display: flex;   
+    justify-content: center;
+} 
+.ffblock{
+    padding: 1em; 
+    width: 40vw; 
+}
+.ssblock{
+    padding: 1em;
+    width: 40vw;
+}
+#A2MiddlePage {
+    background-image: url(/img/vente-location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#first{
+    height: 40vh;
+    display: flex;
+}
+#first p{
+    color: #FFF;
+}
+.A1fContent{
+background-color: #faba4dd0;
+margin: 7em 1em 7em 7em;
+padding: 2em;
+height: 15vh;
+}
+.A1sContent{
+    background-color: #fa5757d0;
+    margin: 7em 7em 7em 7em;
+    padding: 2em;
+    height: 15vh;
+}
+#second{
+    background-color: #232728;
+    padding: 2em 4em;       
+}   
+#second h2{
+text-align: center;
+border-bottom: 3px solid #cb6018;
+padding-bottom: 1em;
+font-size: 2em;
+color: #FFF;
+}
+#second ul{
+    display: inline-flex;
+    list-style-type: none;
+   grid-gap: 5em;  
+   justify-content: center; 
+   padding-left: 0;      
+}
+#second ul li button{
+    background-color:#6C98DF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    height: auto;
+    width: auto;
+    font-weight: bold;
+   
+   
+   
+}
+#second ul li button span{
+    text-decoration: line-through;
+    color: #232728;
+    font-size: 0.7em;
+}
+#second ul li p{
+    background-color: #444b4d;
+    color: #FFF;
+    padding: 1.5em; 
+}
+#AbottomPage{
+    padding: 2em 10em;
+}
+#AbottomPage h3{
+text-align: center;
+font-size: 2em;
+}
+.AbottomP ul{
+    display: flex;
+    list-style-type: none;  
+    align-items: center; 
+   padding: 3em;
+}
+.AbottomP ul li img{
+height: auto;
+
+}
+.AbottomP ul li p{
+    color: #3b4244;   
+}
+.AbottomP ul li h4{
+    margin: 0;
+}
+.AbottomP ul li{
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+}
+#AbottomPage button{
+    background-color: #6C98DF;
+    color: #FFF;
+    padding: 6px 8px 6px 12px; 
+    border: none;
+    border-radius: 2px;   
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.bouton{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#A2bottomPage{
+    background-image: url(/img/vehicule3.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.AbottomContent{
+    background-color:#f0a315bd ;
+    margin: 6em 1em 4em 12em;
+    width: 35vw;
+    padding: 4em;
+}
+.AbottomContent h2{
+    font-weight: bolder;
+}
+.AbottomContent h2{
+    color: #FFF;
+    font-size: 2em;
+    font-weight: bold;   
+}
+/* FOOTER*/
+#mainFooter{
+    background-color: #232728;
+    height: auto;
+    margin: 0;   
+    
+}
+#mainFooter h2{
+    color: #FFF;
+    font-size: 1.2em;
+}
+#mainFooter ul li h2 span{
+    color: #6C98DF;
+}
+#mainFooter ul{
+    display: flex;
+    padding:1em 5em ;
+    list-style-type: none;
+    margin: 0;
+    justify-content: center;
+}
+#mainFooter ul li{
+    border-bottom: #3b4244 solid;
+    padding: 2em;
+}
+#mainFooter ul li p{
+    color: #aeb9bd;
+    width: 20em;
+}
+.aaa p{
+    text-align: center;
+    padding-bottom: 3em;
+    color: #ffffff81;
+}
+/*FOOTER*/
+/* PAGE VENTE */
+
+#VmainHeader{  
+    height: 30vh;
+}
+
+#VfHeader{
+    background-color: #232728;
+    height: 7.5vh;
+    display: flex;
+    padding: 2em 1em;
+    justify-content: center;
+    align-items: center;
+    
+}
+#VfHeader h2{
+    font-size: 1em;
+    color: #cb6018;
+}
+#VfHeader p , #VfHeader h3{
+    color: #FFF;
+}
+.VA{
+    color: #fff;
+    padding: 2em 3.5em;
+}
+.VAB{
+    padding: 2em 3.5em;
+    display: flex;
+    word-spacing: 0.3em;
+    line-height: 1.5em
+    
+}
+.VAB h2 span,.VABC h2 span{
+    color: #fff;
+}
+.VABC h2 span{
+    font-size: 1.5em;
+}
+.VABC{
+    padding: 2em 3.5em;
+    display: flex;
+}
+.VABCD{
+    padding: 2em 3.5em;
+}
+.VABCD h3 span{
+color: #cb6018;
+}
+.VmainNav{
+    background-color: rgba(255, 255, 255, 0.678);
+    height: 3vh;    
+}
+.VmainNav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    margin: 0;
+    padding: 1em 15em;
+    
+    
+
+}
+.VmainNav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding:1.5em;    
+}
+#TopPage h2{
+    padding:1em 6em;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2em;
+}
+#TopPage{
+    background-image: url(/img/vente-location.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 15vh;
+    background-position: center;   
+}
+#VPageContent{
+    padding: 0 4em;
+}
+#LeftCol{  
+    display: grid;
+    width: auto;
+    height: auto;
+}
+.Vordre{
+    display: flex;
+    border-bottom: 1px #444b4d3a solid;
+    padding-bottom: 1em;
+    width: auto;
+}
+.Vordre p{
+    color: #444b4d;
+    padding: 0.5em;
+}
+.Vordre select{
+    padding: 1em;
+    border: none;
+    background-color: #edf2f3;
+    color: #202425;
+}
+#LeftCol ul{
+    list-style-type: none;
+    
+}
+#LeftCol ul img{
+    height: auto;
+    width: auto;
+    
+}
+#Vfirst{
+    display: flex;   
+    padding: 1em;
+    border-bottom: 1px #444b4d3a solid;   
+}
+#LeftCol ul div{
+    padding: 1em;
+}
+.Vsecond{
+    width: 20vw;
+}
+.Vthird{
+    width: 30vw;
+}
+.Vthird p{
+    line-height: 1.5em;
+    color: grey;
+}
+.Vthird p span{
+    color: black;
+    font-weight: bold;
+}
+.Vfourth button,.Vfourthh button{
+   color: #FFF;
+   background-color: #6C98DF; 
+   border: none;
+   padding:0.6em 0.6em 0.6em 1.2em;
+   border-radius: 1px;
+   width: 6em;
+   font-weight: bold;
+   font-size: 1.3em;
+}
+#rightCol{
+    height: auto;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.336);
+    width: auto;    
+    float: right;   
+    padding: 0em;
+    
+}
+
+.TopRight{
+background-color:#232728;
+color: #FFF;
+display: grid;
+padding: 0.5em ;
+align-items: center;
+grid-template-columns: 1fr 2fr;
+
+}
+.TopRight img{
+    height: 4vh;
+    padding: 1em;
+}
+#rightCol ul li{
+    list-style-type: none;
+    padding: 0.5em;
+    text-align: center;         
+}
+#rightCol ul li select{
+    width: 13vw;
+    padding: 0.5em;
+    background-color: #f5f6f7;
+    border: none;   
+    color: #3b4244;   
+}
+#rightCol ul{
+    padding: 1em;   
+}
+.prix {
+    text-align: center;
+    padding: 1em;
+}
+.renitialiser{
+    text-align: center;
+    padding: 2em;
+}
+.renitialiser button{
+    background-color: #6C98DF;
+    border: none;
+    border-radius: 2px;
+    padding: 1em 2em;
+    color: #FFF;
+    font-weight: bold;
+}
+/*CONTACT*/
+#CTopPage{
+    margin: 0;
+    background-image: url(/img/vehicule3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   height: 100%;     
+}   
+#PageContent{
+    background-color: #fff;
+   padding: 2em 4em 5em 4em;
+   height: 29vh;
+   margin: 0em 10em 5em 10em;
+   width: auto;
+}
+#PageContent h2{
+    font-size: 2em; 
+   
+}
+.body{
+    background-color: #EEF2F5;
+}
+#frmContact{
+    grid-gap: 2em;
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+}
+#frmContact  div{
+    display: flex;
+    flex-direction: column;   
+}
+.Cfirst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+#frmContact  div input{
+    border: none;
+    background-color: #ECEFF4;
+    padding: 1em;
+    margin: 1em 0 0 0 ;
+}
+#frmContact  div textarea{
+    background-color: #ECEFF4;
+    border: none;
+    padding: 1em;
+    margin: 1em 0 0 0 ;
+    resize: none ;
+    
+  
+}
+.envoyez{
+  text-align: right;
+  
+}
+.envoyez button{
+    border: none;
+    background-color: #6C98DF;
+    padding: 1em 2em;
+    color: #fff;
+    font-weight: bold;
+    margin: 2em;
+    border-radius: 3px;
+}
+/*PAGE VEHICULE*/
+#barmenu{
+    background-color: rgb(224, 230, 231);
+    height: 3vh;  
+}
+#mainNav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    margin: 0;
+    padding: 1em 15em;
+  
+}
+#mainNav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;  
+}
+#PageVehicule{
+    padding: 2em 10em;
+    width: 45vw;
+}
+#VtopPage img{
+    height: auto;
+    width: 45vw;
+}
+#Vmenu{
+    background-color: #202425;
+    color: #fff;
+}
+#Vmenu ul{
+    list-style-type: none;
+    display: flex;
+}
+#Vmenu ul li{
+    padding: 1em;
+}
+#Vpara div{
+    padding-left:2em ;
+    color: gray;
+    border-left: #cb6018 solid;
+}
+
+
+
+
+@media screen and (max-width:480px){
+    #fHeader div{
+        padding: 0;
+    }
+    .burger svg,.VA svg{
+        fill: #6C98DF;  
+        padding: 1em;
+    }
+    .burger{
+        background-color: #232728;
+        width: 100vw;
+        text-align: right;
+    }
+    .none{
+         display: none;
+        }
+    .ABC{
+        position: absolute;    
+    }
+    #sHeader{
+        background-image: none;height: 17vh;
+        
+    }
+    .bottomHeader{
+        height: 20vh;position: absolute;
+    }
+    #AMiddlePage{
+        padding: 0;
+  
+    }
+    #AfContent {
+        display: block;
+    }
+
+    .fblock{
+     width: auto;
+    }
+    .sblock{
+        width: auto;
+    }
+    #AsContent {
+        display: block;
+    }
+
+    .ffblock{
+     width: auto;
+    }
+    .ssblock{
+        width: auto;
+    }
+    #A2MiddlePage{
+        height: auto;
+    }
+    #first{
+        display: block;
+        height: auto;
+        padding: 1em 0;
+    }
+    .A1fContent{
+        height: auto;
+        margin:0 0 1em 0;    
+    }
+    .A1sContent{
+        height: auto;
+        margin:0;  
+    }
+    #AbottomPage{
+        padding: 1em;
+        
+    }
+    .AbottomP ul{
+        display: block;
+    }
+    #A2bottomPage{
+        height: auto;
+    }
+    .AbottomContent{
+        margin: 4em 0;
+        width: auto;
+        height: auto; 
+    }
+    #mainFooter{
+        padding: 1em;
+    }
+    #mainFooter ul{
+        display: block;
+        padding: 0;
+
+    }
+    #mainFooter ul li{
+        border-bottom: none;
+    }
+    .aaa {
+        border-top: #3b4244 solid ;  
+    }
+    /*VENTE ET LOCATION */
+    #VmainHeader{
+        height: auto;
+    }
+    #VfHeader{
+       display: grid;
+       height: auto;
+       padding: 0;
+    }
+    .VA{
+        display: grid;
+        padding: 1em;
+        grid-template-columns: 4fr 1fr;
+        align-items: center;
+    }
+    .VABC{
+        padding:0 0 1em 0;
+    }
+    #TopPage h2{
+        margin: 0;
+        padding: 1em;
+    }
+    #VPageContent{
+        padding: 1em;
+    }
+    #rightCol{
+        float: none;
+        padding: 0;
+        margin: 1em;
+    }
+    #rightCol ul li select{
+       width: 80% ;
+    }
+    #LeftCol ul{
+        padding: 0;
+    }
+   
+    #Vfirst{
+       display: block;
+       padding: 1em;
+     
+    }
+    .Vsecond{
+        
+        width: auto;
+        
+    }
+    .Vthird{
+        width: auto;
+    }
+    .Vfourthh{
+        float: right;
+        position: absolute; 
+    }
+    #LeftCol ul div {
+        padding: 0;
+    }
+    /*Page Contact */
+    #CTopPage{
+        height: 50vh;
+    }
+    #PageContent{
+      width: auto;
+      height: auto;
+      margin: 1em;
+      padding: 2em;
+    }
+    #frmContact{
+        display: block;
+        
+    }
+    #frmContact div{
+        padding: 1em 0;
+    }
+    .Cfirst{
+        display: block;
+    }
+    .envoyez{
+        text-align: center;
+    }
+    /*VEHICULE*/
+    #barmenu,#mainNav{
+        display: none;
+    }
+    #PageVehicule{
+        width: auto;
+        padding: 0;
+    }
+    #Vmenu nav ul{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    #Vmenu{
+        margin: 2em;
+    }
+    #VtopPage{
+        padding: 2em;
+    }
+    #VtopPage img{
+        width: auto;
+    }
+    #Vpara{
+        padding: 2em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width:480px){
+    .burger svg,.VA svg{
+        display: none;
+    }
+    .Vfourthh{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
