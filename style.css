@@ -44,6 +44,7 @@ color: #cb6018;
     height: 40vh;
     background-size: cover;
     position: relative;
+    
       
 }
 .mainNav{
@@ -74,20 +75,16 @@ img{
 }
 .bottomHeader{
     background-color: #232728;
-    height: 6vh;
+    height: auto;
     width: 100vw;
     font-size: 1em;
     color: #cb6018;
-   position: absolute;
-   bottom: 0;
-    
-    
+   padding: 1em;
+      
 }
 .bottomHeader h1{
-    text-align: center;
-}
-#sHeader h1 span{
-    color: #FFF;
+    padding-left: 15%;
+    margin: 0;
 }
 #AMiddlePage {
    display: grid;
@@ -567,7 +564,7 @@ grid-template-columns: 1fr 2fr;
     text-decoration: none;  
 }
 #PageVehicule{
-    padding: 2em 10em;
+    padding: 0em 10em 2em 10em;
     width: 45vw;
 }
 #VtopPage img{
@@ -590,8 +587,39 @@ grid-template-columns: 1fr 2fr;
     color: gray;
     border-left: #cb6018 solid;
 }
-
-
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    border-bottom:grey solid 1px;
+    color: grey;
+    
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 12.5px;
+    
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color:grey;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
 
 
 @media screen and (max-width:480px){
@@ -614,11 +642,11 @@ grid-template-columns: 1fr 2fr;
         position: absolute;    
     }
     #sHeader{
-        background-image: none;height: 17vh;
+        background-image: none;height:0;
         
     }
     .bottomHeader{
-        height: 20vh;position: absolute;
+        height:auto;
     }
     #AMiddlePage{
         padding: 0;
@@ -794,37 +822,13 @@ grid-template-columns: 1fr 2fr;
     #Vpara{
         padding: 2em;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #breadcrumb{
+        padding: 3em 2em 0em 2em;
+    }
 
 }
-@media screen and (min-width:480px){
+
+@media screen and (min-width:481px) {
     .burger svg,.VA svg{
         display: none;
     }
