@@ -118,12 +118,13 @@ img{
     width: 40vw;
 }
 #A2MiddlePage {
+    
+}
+#first{
     background-image: url(/img/vente-location.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-#first{
-    height: 40vh;
+    height: auto;
     display: flex;
 }
 #first p{
@@ -133,13 +134,13 @@ img{
 background-color: #faba4dd0;
 margin: 7em 1em 7em 7em;
 padding: 2em;
-height: 15vh;
+height: auto;
 }
 .A1sContent{
     background-color: #fa5757d0;
     margin: 7em 7em 7em 7em;
     padding: 2em;
-    height: 15vh;
+    height: auto;
 }
 #second{
     background-color: #232728;
@@ -632,7 +633,6 @@ ul.breadcrumb {
     }
     .burger{
         background-color: #232728;
-        width: 100vw;
         text-align: right;
     }
     .none{
@@ -827,8 +827,137 @@ ul.breadcrumb {
     }
 
 }
+@media screen and (max-width:1000px){
+    #fHeader div{
+        padding: 0;
+    }
+    .burger svg,.VA svg{
+        fill: #6C98DF;  
+        padding: 1em;
+    }
+    .burger{
+        background-color: #232728;
+        text-align: right;
+    }
+    .none{
+         display: none;
+        }
+    .ABC{
+        position: absolute;    
+    }
+    .bottomHeader h1{
+        padding-left: 0;
+    }
+    #AMiddlePage{
+        padding: 0;
+    }
+    .AbottomP ul{
+        display: block;
+    }
+    #AbottomPage{
+        padding: 2em;
+    }
+    .A1fContent,.A1sContent{
+        margin:2em ;
+    }
+    .AbottomContent{
+        margin: 2em;
+    }
+    #mainFooter ul{
+        display: block;
+    }
+    /**VENTE ET LOCATION*/
+    #VmainHeader{
+        height: auto;
+    }
+    #VfHeader{
+       display: grid;
+       height: auto;
+       padding: 0;
+       justify-content: flex-start;
+      
+    }
+    .VA{
+        display: flex;
+       padding: 1em;
+        align-items: center;
+        justify-content: space-between;
+        width: 95vw;
+       
+    }
+    .burger{
+        text-align: right;
+    }
+    .VABC{
+        padding:0 0 1em 0;
+    }
+    #TopPage h2{
+        margin: 0;
+        padding: 1em;
+    }
+    #VPageContent{
+        padding: 1em;
+    }
+    #rightCol{
+        float: none;
+        padding: 0;
+        margin: 1em;
+       
+    }
+    #rightCol ul li select{
+       width: 80% ;
+    }
+    #LeftCol ul{
+        padding: 0;
+    }
+   
+    #Vfirst{
+       display: block;
+       padding: 1em;
+     
+    }
+    .Vsecond{
+        
+        width: auto;
+        
+    }
+    .Vthird{
+        width: auto;
+    }
+    .Vfourthh{
+        float: right;
+        position: absolute; 
+    }
+    #LeftCol ul div {
+        padding: 0;
+    }
 
-@media screen and (min-width:481px) {
+}
+@media screen and (max-width:1400px) and (min-width:1001px){
+#VfHeader div,#fHeader div{
+    padding: 1em;
+}
+#AbottomPage{
+    padding: 2em 1em;
+}
+#mainFooter ul,#mainFooter ul li{
+    padding: 0;
+}
+#VPageContent{
+    padding: 0;
+}
+#LeftCol{
+    margin: 2em;
+}
+#rightCol{
+    padding: 1em;
+}
+#Vfirst{
+    padding: 0;
+}
+
+}
+@media screen and (min-width:1001px) {
     .burger svg,.VA svg{
         display: none;
     }
@@ -837,7 +966,6 @@ ul.breadcrumb {
     }
     
 }
-
 
 
 
