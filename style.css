@@ -331,7 +331,7 @@ color: #cb6018;
 }
 .VmainNav{
     background-color: rgba(255, 255, 255, 0.678);
-    height: 3vh;    
+    height: auto;    
 }
 .VmainNav ul{
     display: flex;
@@ -491,7 +491,7 @@ grid-template-columns: 1fr 2fr;
 #PageContent{
     background-color: #fff;
    padding: 2em 4em 5em 4em;
-   height: 29vh;
+   height: auto;
    margin: 0em 10em 5em 10em;
    width: auto;
 }
@@ -931,7 +931,29 @@ ul.breadcrumb {
     #LeftCol ul div {
         padding: 0;
     }
-
+    #CTopPage{
+        height: 50vh;
+    }
+    #PageContent{
+      width: auto;
+      height: auto;
+      margin: 1em;
+      padding: 2em;
+    }
+    #frmContact{
+        display: block;
+       
+        
+    }
+    #frmContact div{
+        padding: 1em 0;
+    }
+    .Cfirst{
+        display: block;
+    }
+    .envoyez{
+        text-align: center;
+    }
 }
 @media screen and (max-width:1400px) and (min-width:1001px){
 #VfHeader div,#fHeader div{
@@ -955,7 +977,9 @@ ul.breadcrumb {
 #Vfirst{
     padding: 0;
 }
-
+#frmContact{
+    grid-template-columns: none;
+}
 }
 @media screen and (min-width:1001px) {
     .burger svg,.VA svg{
