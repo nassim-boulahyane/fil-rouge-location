@@ -621,11 +621,24 @@ ul.breadcrumb {
     color: #01447e;
     text-decoration: underline;
   }
-
+button{
+    cursor: pointer;
+}
+.burger img{
+    display: none;
+}
 
 @media screen and (max-width:480px){
     #fHeader div{
         padding: 0;
+    }
+    .VmainNav[data-visible]{
+        display: flex;
+        justify-content: center;
+    }
+    .VA button{
+        border: 0;
+        background-color: #232728;
     }
     .burger svg,.VA svg{
         fill: #6C98DF;  
@@ -831,6 +844,14 @@ ul.breadcrumb {
     #fHeader div{
         padding: 0;
     }
+    .VmainNav[data-visible]{
+         display: flex;
+         justify-content: center;
+    }
+    .VA button{
+        border: 0;
+        background-color: #232728;
+    }
     .burger svg,.VA svg{
         fill: #6C98DF;  
         padding: 1em;
@@ -982,7 +1003,7 @@ ul.breadcrumb {
 }
 }
 @media screen and (min-width:1001px) {
-    .burger svg,.VA svg{
+    .burger svg,.VA svg,.VA button{
         display: none;
     }
     .Vfourthh{
