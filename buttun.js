@@ -1,8 +1,8 @@
 function toggleMenu () {
-    const VmainNav = document.querySelector('.VmainNav')
+    const menuburger = document.querySelector('.menuburger')
     const burger = document.querySelector('.burger')
     burger.addEventListener('click', () => {
-        VmainNav.toggleAttribute("data-visible"); 
+        menuburger.toggleAttribute("data-visible"); 
     })
 }
 toggleMenu();

@@ -9,17 +9,29 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <!--Début du Header-->
     <header id="VmainHeader">
+    <!--Informations de l'entreprise-->
         <section id="VfHeader">
             <div class="VA">
                 <h1  >CLUB AUTO</h1>
                 <button class="burger"><img src="/icon/icon-close.svg" alt="icon-close"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30"  height="30px"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/></svg></button>
+                
             </div>
             <div class="VAB none">
                 <img src="/icon/icone-adresse.png" alt="icon d'adresse">
                 <h2>ADRESSE:<br><span>AVENUE CHARLES DE GAULLE 75000 PARIS</span></h2> <br>
                 <p></p>
+                
             </div>
+            <div><nav class="menuburger none">
+                <ul>
+                    <li><a href="/index.html">ACCUEIL</a></li>
+                    <li><a href="/vente.html">VENTE</a></li>
+                    <li><a href="/Location.html">LOCATION</a></li>
+                    <li><a href="/Contact.html">CONTACT</a></li>
+                </ul>
+             </nav></div>
             <div class="VABC">
             <img src="/icon/icon-telephone.png" alt="icon de téléphone">
                 <h2>TELEPHONE:<br><span>01 23 45 67 89</span></h2>
@@ -30,6 +42,7 @@
                 
             </div>
         </section> 
+        <!--Barre de navigation-->
         <section id="TopPage">  
             <nav class="VmainNav none">
                 <ul>
@@ -42,8 +55,9 @@
              <h2>VENTE</h2>
         </section>
     </header>
+         <!--Contenu de la page-->
         <aside id="VPageContent">
-           
+                <!--Espace de recherche par catégorie-->       
                 <section id="rightCol">
                     <div class="TopRight">
                         <img src="/icon/icone-voiture.png" alt="icon de voiture">
@@ -67,12 +81,13 @@
                         <button >Rénitialiser</button>
                     </div> 
                 </section> 
+                <!--Catalogue-->
                 <section id="LeftCol">
                     <div class="Vordre ">
                         <p class="none">ORDRE: </p> <select name="Prix"><option>Prix  : Croissant</option></select>
                     </div>
                         <ul>
-                            <li id="Vfirst">
+                            <li class="Vfirst">
                                <div class="Vsecond"><div class="Vfourthh"><button>5 000€</button></div><img src="/img/vehicule2.jpg" alt="photo audi"></div>
                                 <div class="Vthird"><h2>BMW 535i, Navi, Leather, ABS</h2>  
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, sint placeat atque praesentium exercitationem maxime odit nihil quibusdam dolor commodi hic molestiae totam laborum consectetur, non magni, vel iure? Quam sed explicabo molestias. Veritatis, eos?</p>
@@ -80,21 +95,21 @@
                                     <div class="Vfourth none"><button>5 000€</button></div>
                                
                             </li>
-                            <li id="Vfirst">
+                            <li class="Vfirst">
                                 <div class="Vsecond"><div class="Vfourthh"><button>5 000€</button></div><img src="/img/vehicule2.jpg" alt="photo audi"></div> 
                                 <div  class="Vthird"><h2>BMW 535i, Navi, Leather, ABS</h2>  
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, sint placeat atque praesentium exercitationem maxime odit nihil quibusdam dolor commodi hic molestiae totam laborum consectetur, non magni, vel iure? Quam sed explicabo molestias. Veritatis, eos?</p>
                                 <p><span>>>En savoir plus &lt;&lt;</span></p></div>
                                 <div class="Vfourth none"><button>5 000€</button></div>
                             </li>
-                            <li id="Vfirst">
+                            <li class="Vfirst">
                                 <div class="Vsecond"><div class="Vfourthh"><button>5 000€</button></div><img src="/img/vehicule2.jpg" alt="photo audi"></div>
                                 <div  class="Vthird"><h2>BMW 535i, Navi, Leather, ABS</h2>  
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, sint placeat atque praesentium exercitationem maxime odit nihil quibusdam dolor commodi hic molestiae totam laborum consectetur, non magni, vel iure? Quam sed explicabo molestias. Veritatis, eos?</p>
                                 <p><span>>>En savoir plus &lt;&lt;</span></p></div>                       
                                 <div class="Vfourth none"><button>5 000€</button></div>
                             </li>
-                            <li id="Vfirst">
+                            <li class="Vfirst">
                                 <div class="Vsecond"><div class="Vfourthh"><button>5 000€</button></div><img src="/img/vehicule2.jpg" alt="photo audi"></div> 
                                 <div  class="Vthird"><h2>BMW 535i, Navi, Leather, ABS</h2>  
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, sint placeat atque praesentium exercitationem maxime odit nihil quibusdam dolor commodi hic molestiae totam laborum consectetur, non magni, vel iure? Quam sed explicabo molestias. Veritatis, eos?</p>
@@ -102,8 +117,9 @@
                                 <div class="Vfourth none"><button>5 000€</button></div>
                             </li>
                         </ul>
-                </section>   
-        </aside>
+                </section> <!--Fin du Catalogue-->  
+        </aside><!--Fin du contenu de la page-->
+        <!--Début du footer-->
         <footer id="mainFooter">
             <ul>
                 <li><h2><span>CLUB</span>  AUTO</h2>

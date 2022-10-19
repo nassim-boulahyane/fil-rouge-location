@@ -1,6 +1,9 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+.none{
+    display: none;
+}
 html,body{
     width:100%;
     overflow-x:hidden;
@@ -395,7 +398,7 @@ color: #cb6018;
     width: auto;
     
 }
-#Vfirst{
+.Vfirst{
     display: flex;   
     padding: 1em;
     border-bottom: 1px #444b4d3a solid;   
@@ -629,13 +632,24 @@ button{
 }
 
 @media screen and (max-width:480px){
+    /*Menu Burger */
+    .menuburger[data-visible]{
+        display:flex ;
+       
+    }
+    .menuburger ul li a{
+        text-decoration: none;
+        color: #edf2f3;
+   
+    }
+    .menuburger ul li{
+        list-style-type: none;
+    }
+    /* FIN Menu Burger */
     #fHeader div{
         padding: 0;
     }
-    .VmainNav[data-visible]{
-        display: flex;
-        justify-content: center;
-    }
+   
     .VA button{
         border: 0;
         background-color: #232728;
@@ -767,7 +781,7 @@ button{
         padding: 0;
     }
    
-    #Vfirst{
+    .Vfirst{
        display: block;
        padding: 1em;
      
@@ -932,7 +946,7 @@ button{
         padding: 0;
     }
    
-    #Vfirst{
+    .Vfirst{
        display: block;
        padding: 1em;
      
@@ -995,7 +1009,7 @@ button{
 #rightCol{
     padding: 1em;
 }
-#Vfirst{
+.Vfirst{
     padding: 0;
 }
 #frmContact{
