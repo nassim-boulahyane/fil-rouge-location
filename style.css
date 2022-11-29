@@ -1,9 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-.none{
-    display: none;
-}
+
 html,body{
     width:100%;
     overflow-x:hidden;
@@ -30,6 +28,9 @@ html,body{
     display: flex;
     word-spacing: 0.3em;
     line-height: 1.5em
+}
+#fHeader img{
+    height: 80px;
 }
 .AB h2 span,.ABC h2 span,.A{
     color: #fff;
@@ -63,6 +64,24 @@ color: #cb6018;
     margin: 0;
     padding-top: 1em;
    
+}
+.menuburger{
+    background-color: #232728;
+    margin: 0;
+}
+.menuburger ul{
+    list-style-type: none;
+    text-align: right;
+    padding-right: 3em;
+    margin: 0;
+}
+.menuburger ul li a{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+.menuburger ul li{
+    padding: 0.5em;
 }
 .mainNav ul li a{
     text-decoration: none;
@@ -120,9 +139,6 @@ img{
     padding: 1em;
     width: 40vw;
 }
-#A2MiddlePage {
-    
-}
 #first{
     background-image: url(/img/vente-location.jpg);
     background-repeat: no-repeat;
@@ -170,10 +186,7 @@ color: #FFF;
     border: none;
     height: auto;
     width: auto;
-    font-weight: bold;
-   
-   
-   
+    font-weight: bold;  
 }
 #second ul li button span{
     text-decoration: line-through;
@@ -284,7 +297,9 @@ height: auto;
 }
 /*FOOTER*/
 /* PAGE VENTE */
-
+.hide{
+    display: none;
+}
 #VmainHeader{  
     height: 30vh;
 }
@@ -304,6 +319,9 @@ height: auto;
 }
 #VfHeader p , #VfHeader h3{
     color: #FFF;
+}
+#VfHeader img{
+    height: 80px;
 }
 .VA{
     color: #fff;
@@ -661,6 +679,7 @@ button{
     .burger{
         background-color: #232728;
         text-align: right;
+        display: block;
     }
     .none{
          display: none;
@@ -858,6 +877,12 @@ button{
     #fHeader div{
         padding: 0;
     }
+    .visible{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
     .VmainNav[data-visible]{
          display: flex;
          justify-content: center;
@@ -873,10 +898,8 @@ button{
     .burger{
         background-color: #232728;
         text-align: right;
+     
     }
-    .none{
-         display: none;
-        }
     .ABC{
         position: absolute;    
     }
